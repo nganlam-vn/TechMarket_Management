@@ -1,0 +1,14 @@
+﻿<Window x:Class="TechMarket_Management.FHome"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TechMarket_Management"
+        xmlns:hc="https://handyorg.github.io/handycontrol"
+        mc:Ignorable="d"
+        Title="FHome" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnSignUp" Height="40" Width="100" Content="Sign Up"
+        Foreground="Black" FontWeight="DemiBold" Click="btnSignUp_Click" HorizontalAlignment="Left" Margin="116,262,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

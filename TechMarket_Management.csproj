@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="blackgray.jpg" />
+    <None Remove="View\UserControls\CuteCatSignIn.jpg" />
+    <None Remove="View\UserControls\UCBuyer\logo.jpg" />
+    <None Remove="View\UserControls\UCBuyer\naruto.jpg" />
+    <None Remove="View\UserControls\UCBuyer\SA_colourful.jpg" />
+    <None Remove="View\UserControls\UCSeller\1.jpg" />
+    <None Remove="View\UserControls\UCSeller\2.jpg" />
+    <None Remove="View\UserControls\UCSeller\BaConMeo.jpg" />
+    <None Remove="View\UserControls\UCSeller\catFoot2.jpg" />
+    <None Remove="View\UserControls\UCSeller\MeoCaoTuong.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HandyControl" Version="3.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="blackgray.jpg" />
+    <Resource Include="View\UserControls\CuteCatSignIn.jpg" />
+    <Resource Include="View\UserControls\UCBuyer\logo.jpg" />
+    <Resource Include="View\UserControls\UCBuyer\naruto.jpg" />
+    <Resource Include="View\UserControls\UCBuyer\SA_colourful.jpg" />
+    <Resource Include="View\UserControls\UCSeller\1.jpg" />
+    <Resource Include="View\UserControls\UCSeller\2.jpg" />
+    <Resource Include="View\UserControls\UCSeller\BaConMeo.jpg" />
+    <Resource Include="View\UserControls\UCSeller\catFoot2.jpg" />
+    <Resource Include="View\UserControls\UCSeller\MeoCaoTuong.jpg" />
+  </ItemGroup>
+
+</Project>
