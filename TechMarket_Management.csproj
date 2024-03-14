@@ -9,8 +9,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="add_to_basket.png" />
+    <None Remove="avatar.png" />
     <None Remove="blackgray.jpg" />
+    <None Remove="find.jpg" />
+    <None Remove="logo.jpg" />
+    <None Remove="Tofu65_v2.jpg" />
+    <None Remove="View\UserControls\add_to_basket.png" />
+    <None Remove="View\UserControls\avatar.png" />
     <None Remove="View\UserControls\CuteCatSignIn.jpg" />
+    <None Remove="View\UserControls\find.jpg" />
+    <None Remove="View\UserControls\logo.jpg" />
     <None Remove="View\UserControls\UCBuyer\logo.jpg" />
     <None Remove="View\UserControls\UCBuyer\naruto.jpg" />
     <None Remove="View\UserControls\UCBuyer\SA_colourful.jpg" />
@@ -26,8 +35,17 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="add_to_basket.png" />
+    <Resource Include="avatar.png" />
     <Resource Include="blackgray.jpg" />
+    <Resource Include="find.jpg" />
+    <Resource Include="logo.jpg" />
+    <Resource Include="Tofu65_v2.jpg" />
+    <Resource Include="View\UserControls\add_to_basket.png" />
+    <Resource Include="View\UserControls\avatar.png" />
     <Resource Include="View\UserControls\CuteCatSignIn.jpg" />
+    <Resource Include="View\UserControls\find.jpg" />
+    <Resource Include="View\UserControls\logo.jpg" />
     <Resource Include="View\UserControls\UCBuyer\logo.jpg" />
     <Resource Include="View\UserControls\UCBuyer\naruto.jpg" />
     <Resource Include="View\UserControls\UCBuyer\SA_colourful.jpg" />

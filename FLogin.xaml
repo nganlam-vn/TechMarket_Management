@@ -7,7 +7,7 @@
         xmlns:hc="https://handyorg.github.io/handycontrol"
         xmlns:userControls="clr-namespace:TechMarket_Management.View.UserControls"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="800" Width="1400">
     <Grid Margin="10">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0.25*"/>
@@ -25,7 +25,7 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="1.5*"/>
             </Grid.RowDefinitions>
-            
+
             <Grid Grid.Row="1">
                 <TextBlock x:Name="lblLogin" Text="Login to Your Account" FontSize="30" FontWeight="SemiBold"
                            Width="337" Height="66" HorizontalAlignment="Center" VerticalAlignment="Center" />
@@ -56,7 +56,7 @@
             <TextBlock x:Name="lblSignUpNote2" Text="Your best TechMarket ever!"
                         FontSize="13" FontWeight="DemiBold" Foreground="White"  VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,187,0,0" />
             <Button x:Name="btnSignUp" Height="40" Width="100" Content="Sign Up"
-                        Foreground="Black" FontWeight="DemiBold" Click="btnSignUp_Click" HorizontalAlignment="Left" Margin="116,262,0,0" VerticalAlignment="Top"/>
+                        Foreground="Black" FontWeight="DemiBold" Click="btnSignUp_Click" HorizontalAlignment="Left" Margin="58,650,0,0" VerticalAlignment="Top"/>
 
         </Grid>
     </Grid>
