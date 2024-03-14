@@ -15,12 +15,15 @@
             <RowDefinition Height="100"/>
             <RowDefinition Height="500"/>
         </Grid.RowDefinitions>
-        <userControl:UCMenu/>
+        <userControl:UCMenu Loaded="UCMenu_Loaded"/>
 
         <Button x:Name="btnBack" Content="Back" Background="Aqua" Click="btnBack_Click" HorizontalAlignment="Left" Margin="900,22,0,0" VerticalAlignment="Top"/>
         <Button x:Name="btnSignUp" Height="40" Width="100" Content="Sign Up"
         Foreground="Black" FontWeight="DemiBold" Click="btnSignUp_Click" HorizontalAlignment="Left" Margin="779,11,0,0" VerticalAlignment="Top"/>
         <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
             <Border>
                 <hc:ScrollViewer IsInertiaEnabled="True" Margin="0,0,0,-448">
                     <WrapPanel >
