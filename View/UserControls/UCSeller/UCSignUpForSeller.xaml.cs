@@ -40,7 +40,9 @@ namespace TechMarket_Management.View.UserControls.UCSeller
         {
             MessageBox.Show("Sign Up Successfully");
             this.Visibility = Visibility.Hidden;
-            MainWindow fLogin = new MainWindow();
+            //FHome fHome = (FHome)Window.GetWindow(this);
+            //fHome.Close();
+            FLogin fLogin = new FLogin();
             fLogin.Show();
            
         }

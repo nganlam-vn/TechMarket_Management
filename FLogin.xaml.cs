@@ -16,9 +16,9 @@ namespace TechMarket_Management
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : System.Windows.Window
+    public partial class FLogin : System.Windows.Window
     {
-        public MainWindow()
+        public FLogin()
         {
             InitializeComponent();
         }
