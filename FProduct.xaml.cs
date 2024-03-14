@@ -23,5 +23,10 @@ namespace TechMarket_Management
         {
             InitializeComponent();
         }
+
+        private void UCCard_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
