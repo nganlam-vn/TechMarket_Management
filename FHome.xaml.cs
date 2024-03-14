@@ -40,5 +40,11 @@ namespace TechMarket_Management
             fLogin.Show();
 
         }
+
+        private void UCMenu_Loaded(object sender, RoutedEventArgs e)
+        {
+            FProduct fProduct = new FProduct();
+            fProduct.Show();
+        }
     }
 }

@@ -24,5 +24,10 @@ namespace TechMarket_Management.View.UserControls
         {
             InitializeComponent();
         }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            FProduct product = new FProduct();
+        }
     }
 }
