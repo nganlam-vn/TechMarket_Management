@@ -7,57 +7,61 @@
         xmlns:hc="https://handyorg.github.io/handycontrol"
         xmlns:userControls="clr-namespace:TechMarket_Management.View.UserControls"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid Margin="10">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="0.25*"/>
-            <ColumnDefinition Width="2*"/>
-            <ColumnDefinition Width="0.05*"/>
-            <ColumnDefinition Width="1.5*"/>
-        </Grid.ColumnDefinitions>
-        <Grid Grid.Column="1">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="0.5*"/>
-                <RowDefinition Height="0.5*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="1.5*"/>
-            </Grid.RowDefinitions>
-            
-            <Grid Grid.Row="1">
-                <TextBlock x:Name="lblLogin" Text="Login to Your Account" FontSize="30" FontWeight="SemiBold"
+        Title="MainWindow" Height="464" Width="800">
+    <Border Style="{StaticResource BorderRegion}" Width="800" Height="450" Background="{x:Null}">
+        <Border>
+            <Grid Margin="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.25*"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="0.05*"/>
+                    <ColumnDefinition Width="1.5*"/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="0.5*"/>
+                        <RowDefinition Height="0.5*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="1.5*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="1">
+                        <TextBlock x:Name="lblLogin" Text="Login to Your Account" FontSize="30" FontWeight="SemiBold"
                            Width="337" Height="66" HorizontalAlignment="Center" VerticalAlignment="Center" />
-            </Grid>
+                    </Grid>
 
-            <Grid Grid.Row="2">
-                <TextBlock x:Name="lblUserName" Text="User Name:" FontWeight="DemiBold" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="15"/>
-                <userControls:UCTextBox x:Name="txtbUserName" Margin="105,0,83,0" Loaded="txtbUserName_Loaded"/>
-            </Grid>
-            <Grid Grid.Row="3">
-                <TextBlock x:Name="lblPassword" FontSize="15" Text="Password:" FontWeight="DemiBold" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-                <userControls:UCTextBox x:Name="txtPassword" Margin="105,0,83,0"/>
-            </Grid>
+                    <Grid Grid.Row="2">
+                        <TextBlock x:Name="lblUserName" Text="User Name:" FontWeight="DemiBold" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="15"/>
+                        <userControls:UCTextBox x:Name="txtbUserName" Margin="105,0,83,0" Loaded="txtbUserName_Loaded"/>
+                    </Grid>
+                    <Grid Grid.Row="3">
+                        <TextBlock x:Name="lblPassword" FontSize="15" Text="Password:" FontWeight="DemiBold" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                        <userControls:UCTextBox x:Name="txtPassword" Margin="105,0,83,0"/>
+                    </Grid>
 
-            <Grid Grid.Row="5">
-                <Button x:Name="btnSignIn" Height="40" Width="100" Content="Sign In"
+                    <Grid Grid.Row="5">
+                        <Button x:Name="btnSignIn" Height="40" Width="100" Content="Sign In"
                 VerticalAlignment="Center" Foreground="White" Background="Black" FontWeight="DemiBold" Click="btnSignIn_Click"/>
-            </Grid>
+                    </Grid>
 
-        </Grid>
-        <Grid Grid.Column="4">
-            <Image Source="/blackgray.jpg" Stretch="Fill" />
-            <TextBlock x:Name="lblNewHere" Text="New Here?" FontSize="30" FontWeight="ExtraBold" Foreground="LightGray" Background="Transparent"
+                </Grid>
+                <Grid Grid.Column="4">
+                    <Image Source="/blackgray.jpg" Stretch="Fill" />
+                    <TextBlock x:Name="lblNewHere" Text="New Here?" FontSize="30" FontWeight="ExtraBold" Foreground="LightGray" Background="Transparent"
                          HorizontalAlignment="Center" Height="75" Margin="0,65,0,274"  />
-            <TextBlock x:Name="lblSignUpNote1" Text="Sign up and discover"  Background="Transparent"
+                    <TextBlock x:Name="lblSignUpNote1" Text="Sign up and discover"  Background="Transparent"
                         FontSize="13" FontWeight="DemiBold" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,159,0,0" RenderTransformOrigin="0.522,0.441" />
 
-            <TextBlock x:Name="lblSignUpNote2" Text="Your best TechMarket ever!"
+                    <TextBlock x:Name="lblSignUpNote2" Text="Your best TechMarket ever!"
                         FontSize="13" FontWeight="DemiBold" Foreground="White"  VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,187,0,0" />
-            <Button x:Name="btnSignUp" Height="40" Width="100" Content="Sign Up"
+                    <Button x:Name="btnSignUp" Height="40" Width="100" Content="Sign Up"
                         Foreground="Black" FontWeight="DemiBold" Click="btnSignUp_Click" HorizontalAlignment="Left" Margin="116,262,0,0" VerticalAlignment="Top"/>
 
-        </Grid>
-    </Grid>
+                </Grid>
+            </Grid>
+        </Border>
+    </Border>
 </Window>

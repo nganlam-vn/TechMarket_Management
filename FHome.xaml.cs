@@ -29,7 +29,6 @@ namespace TechMarket_Management
         private void btnSignUp_Click(object sender, RoutedEventArgs e)
         {
             //Dialog.Show(new);
-           this.Close();
             Dialog.Show(new UCSignUp());
 
         }
