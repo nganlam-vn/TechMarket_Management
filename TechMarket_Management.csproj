@@ -10,6 +10,11 @@
 
   <ItemGroup>
     <None Remove="blackgray.jpg" />
+    <None Remove="Tofu65_v2.jpg" />
+    <None Remove="View\add_to_basket.png" />
+    <None Remove="View\avatar.png" />
+    <None Remove="View\find.jpg" />
+    <None Remove="View\logo.jpg" />
     <None Remove="View\UserControls\CuteCatSignIn.jpg" />
     <None Remove="View\UserControls\UCBuyer\logo.jpg" />
     <None Remove="View\UserControls\UCBuyer\naruto.jpg" />
@@ -27,6 +32,11 @@
 
   <ItemGroup>
     <Resource Include="blackgray.jpg" />
+    <Resource Include="Tofu65_v2.jpg" />
+    <Resource Include="View\add_to_basket.png" />
+    <Resource Include="View\avatar.png" />
+    <Resource Include="View\find.jpg" />
+    <Resource Include="View\logo.jpg" />
     <Resource Include="View\UserControls\CuteCatSignIn.jpg" />
     <Resource Include="View\UserControls\UCBuyer\logo.jpg" />
     <Resource Include="View\UserControls\UCBuyer\naruto.jpg" />
