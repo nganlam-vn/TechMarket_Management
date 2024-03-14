@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <None Remove="blackgray.jpg" />
+    <None Remove="Shark67.jpg" />
     <None Remove="Tofu65_v2.jpg" />
     <None Remove="View\add_to_basket.png" />
     <None Remove="View\avatar.png" />
@@ -32,6 +33,7 @@
 
   <ItemGroup>
     <Resource Include="blackgray.jpg" />
+    <Resource Include="Shark67.jpg" />
     <Resource Include="Tofu65_v2.jpg" />
     <Resource Include="View\add_to_basket.png" />
     <Resource Include="View\avatar.png" />
