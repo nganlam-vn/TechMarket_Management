@@ -10,9 +10,29 @@
 
   <ItemGroup>
     <None Remove="1111.jpg" />
+    <None Remove="air_2014.jpg" />
+    <None Remove="asp7.jpg" />
+    <None Remove="asp71.jpg" />
+    <None Remove="aspire3.jpg" />
     <None Remove="blackgray.jpg" />
+    <None Remove="ideapad_5pro.jpg" />
     <None Remove="laptop.jpg" />
+    <None Remove="legion5.jpg" />
+    <None Remove="lenovo-legion-5-pro.jpg" />
+    <None Remove="mac_air.jpg" />
+    <None Remove="mac_pro.jpg" />
+    <None Remove="nitro5.jpg" />
+    <None Remove="nitro7.jpg" />
+    <None Remove="pro_2016.jpg" />
+    <None Remove="pro_2018.jpg" />
+    <None Remove="pro_m1.jpg" />
+    <None Remove="pro_m2.jpg" />
+    <None Remove="ROG_G.jpg" />
+    <None Remove="ScriROG.png" />
     <None Remove="Shark67.jpg" />
+    <None Remove="slim_ideapad.jpg" />
+    <None Remove="thinkpad.jpg" />
+    <None Remove="thinkpadT40.jpg" />
     <None Remove="Tofu65_v2.jpg" />
     <None Remove="View\add_to_basket.png" />
     <None Remove="View\avatar.png" />
@@ -27,6 +47,9 @@
     <None Remove="View\UserControls\UCSeller\BaConMeo.jpg" />
     <None Remove="View\UserControls\UCSeller\catFoot2.jpg" />
     <None Remove="View\UserControls\UCSeller\MeoCaoTuong.jpg" />
+    <None Remove="y70.jpg" />
+    <None Remove="yoga.jpg" />
+    <None Remove="zephyrus.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -35,9 +58,29 @@
 
   <ItemGroup>
     <Resource Include="1111.jpg" />
+    <Resource Include="air_2014.jpg" />
+    <Resource Include="asp7.jpg" />
+    <Resource Include="asp71.jpg" />
+    <Resource Include="aspire3.jpg" />
     <Resource Include="blackgray.jpg" />
+    <Resource Include="ideapad_5pro.jpg" />
     <Resource Include="laptop.jpg" />
+    <Resource Include="legion5.jpg" />
+    <Resource Include="lenovo-legion-5-pro.jpg" />
+    <Resource Include="mac_air.jpg" />
+    <Resource Include="mac_pro.jpg" />
+    <Resource Include="nitro5.jpg" />
+    <Resource Include="nitro7.jpg" />
+    <Resource Include="pro_2016.jpg" />
+    <Resource Include="pro_2018.jpg" />
+    <Resource Include="pro_m1.jpg" />
+    <Resource Include="pro_m2.jpg" />
+    <Resource Include="ROG_G.jpg" />
+    <Resource Include="ScriROG.png" />
     <Resource Include="Shark67.jpg" />
+    <Resource Include="slim_ideapad.jpg" />
+    <Resource Include="thinkpad.jpg" />
+    <Resource Include="thinkpadT40.jpg" />
     <Resource Include="Tofu65_v2.jpg" />
     <Resource Include="View\add_to_basket.png" />
     <Resource Include="View\avatar.png" />
@@ -52,6 +95,9 @@
     <Resource Include="View\UserControls\UCSeller\BaConMeo.jpg" />
     <Resource Include="View\UserControls\UCSeller\catFoot2.jpg" />
     <Resource Include="View\UserControls\UCSeller\MeoCaoTuong.jpg" />
+    <Resource Include="y70.jpg" />
+    <Resource Include="yoga.jpg" />
+    <Resource Include="zephyrus.jpg" />
   </ItemGroup>
 
 </Project>
