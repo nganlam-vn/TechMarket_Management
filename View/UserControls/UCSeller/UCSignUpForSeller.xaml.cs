@@ -23,6 +23,7 @@ namespace TechMarket_Management.View.UserControls.UCSeller
      
     public partial class UCSignUpForSeller : UserControl
     {
+        
      
 
         public UCSignUpForSeller()
@@ -38,10 +39,10 @@ namespace TechMarket_Management.View.UserControls.UCSeller
         private void BtnSignUp_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Sign Up Successfully");
+            this.Visibility = Visibility.Hidden;
             MainWindow fLogin = new MainWindow();
-            FHome fHome = new FHome();
-            fHome.Close();
             fLogin.Show();
+           
         }
     }
 }

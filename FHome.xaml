@@ -8,6 +8,7 @@
         mc:Ignorable="d"
         Title="FHome" Height="450" Width="800">
     <Grid>
+        <Button x:Name="btnBack" Content="Back" Background="Aqua" Click="btnBack_Click"/>
         <Button x:Name="btnSignUp" Height="40" Width="100" Content="Sign Up"
         Foreground="Black" FontWeight="DemiBold" Click="btnSignUp_Click" HorizontalAlignment="Left" Margin="116,262,0,0" VerticalAlignment="Top"/>
     </Grid>
