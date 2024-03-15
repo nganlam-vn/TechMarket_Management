@@ -7,6 +7,68 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-            
+        <StackPanel Width="200" Orientation="Vertical" HorizontalAlignment="Left">
+            <TextBlock Text="DANH MỤC" FontFamily="Arial" FontSize="18" FontWeight="Bold"/>
+            <Menu Margin="0,40,0,0" Grid.ColumnSpan="2">
+                <Menu.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <VirtualizingStackPanel Orientation="Vertical"/>
+                    </ItemsPanelTemplate>
+                </Menu.ItemsPanel>
+                <MenuItem Header="Trang chủ" FontFamily="Arial" FontSize="13"/>
+                <MenuItem Header="Sản phẩm" FontFamily="Arial" FontSize="13"/>
+                <MenuItem Header="      Laptop" FontFamily="Arial" FontSize="13"/>
+                <MenuItem Header="      Điện thoại" FontFamily="Arial" FontSize="13"/>
+                <MenuItem Header="      PC" FontFamily="Arial" FontSize="13"/>
+                <MenuItem Header="      Phụ kiên" FontFamily="Arial" FontSize="13"/>
+            </Menu>
+            <Line X1="0" Y1="2" X2="300" Y2="2" Stroke="WhiteSmoke" StrokeThickness="1"/>
+            <TextBlock Text="TÌM KIẾM" FontFamily="Arial" FontSize="16" FontWeight="Bold" Height="25"/>
+            <TextBlock Text="  Trạng thái " FontFamily="Arial" FontSize="13" FontWeight="Bold" Height="18"/>
+            <CheckBox Height="20">
+                <TextBlock Text="Hàng có sẵn"/>
+            </CheckBox>
+            <TextBlock Text="Thương hiệu" FontFamily="Arial" FontSize="16" FontWeight="Bold" Height="28"/>
+            <CheckBox Height="20">
+                <TextBlock Text=" Apple"/>
+            </CheckBox>
+            <CheckBox Height="20">
+                <TextBlock Text="Dell"/>
+            </CheckBox>
+            <CheckBox Height="20">
+                <TextBlock Text="Asus"/>
+            </CheckBox>
+            <CheckBox Height="20">
+                <TextBlock Text="Aser"/>
+            </CheckBox>
+            <CheckBox Height="20">
+                <TextBlock Text="Lenovo"/>
+            </CheckBox>
+            <CheckBox Height="20">
+                <TextBlock Text="Gigabyte"/>
+            </CheckBox>
+            <TextBlock Text="Giá sản phẩm" FontFamily="Arial" FontSize="16" FontWeight="Bold" Height="28"/>
+            <CheckBox Height="20">
+                <TextBlock Text="Dưới 1.000.000đ"/>
+            </CheckBox>
+            <CheckBox Height="20">
+                <TextBlock Text="1.000.000đ - 5.000.000đ "/>
+            </CheckBox>
+            <CheckBox Height="20">
+                <TextBlock Text="5.000.000đ - 10.000.000đ "/>
+            </CheckBox>
+            <CheckBox Height="20">
+                <TextBlock Text="10.000.000đ - 15.000.000đ "/>
+            </CheckBox>
+            <CheckBox Height="20">
+                <TextBlock Text="15.000.000đ - 20.000.000đ "/>
+            </CheckBox>
+            <CheckBox Height="20">
+                <TextBlock Text="20.000.000đ - 25.000.000đ "/>
+            </CheckBox>
+            <CheckBox Height="20">
+                <TextBlock Text="trên 25.000.000đ "/>
+            </CheckBox>
+        </StackPanel>
     </Grid>
 </UserControl>

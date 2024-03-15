@@ -24,7 +24,7 @@
             <Border>
                 <hc:ScrollViewer IsInertiaEnabled="True" Margin="0,0,0,-570">
                     <WrapPanel >
-                        <Grid Grid.Row="1" Margin="1,8,-1,-8">
+                        <Grid Grid.Row="1" Margin="1,8,0,0">
                             <TextBlock VerticalAlignment="Top"  TextWrapping="Wrap" Text="MACBOOK" Margin="622,35,648,0" FontFamily="Arial"
                        FontSize="20
                        " FontWeight="Bold"/>
@@ -180,7 +180,7 @@
                                 </hc:ScrollViewer>
                             </Border>
                         </Grid>
-                        <Grid Grid.Row="3" Margin="1,8,-1,-8">
+                        <Grid Grid.Row="3" Margin="1,8,0,8">
                             <TextBlock VerticalAlignment="Top"  TextWrapping="Wrap" Text="Asus và Aser" Margin="597,35,560,0" FontFamily="Arial"
                        FontSize="20
                        " FontWeight="Bold"/>
@@ -336,7 +336,7 @@
                                 </hc:ScrollViewer>
                             </Border>
                         </Grid>
-                        <Grid Grid.Row="5" Margin="1,8,-1,-8">
+                        <Grid Grid.Row="5" Margin="1,8,0,0">
                             <TextBlock VerticalAlignment="Top"  TextWrapping="Wrap" Text="Lenovo" Margin="622,35,648,0" FontFamily="Arial"
                        FontSize="20
                        " FontWeight="Bold"/>
