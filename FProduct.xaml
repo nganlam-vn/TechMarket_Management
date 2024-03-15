@@ -8,8 +8,8 @@
         xmlns:userControl="clr-namespace:TechMarket_Management.View.UserControls"
         xmlns:UCBuyer="clr-namespace:TechMarket_Management.View.UserControls.UCBuyer" xmlns:View="clr-namespace:TechMarket_Management.View" x:Class="TechMarket_Management.FProduct"
         mc:Ignorable="d"
-        Title="FProduct" Height="850" Width="1400">
-    <Grid Margin="0,0,0,-65">
+        Title="FProduct" Height="600" Width="1200">
+    <Grid Margin="30">
         <Grid.RowDefinitions>
             <RowDefinition Height="100"/>
             <RowDefinition Height="100"/>
@@ -19,7 +19,7 @@
             <RowDefinition Height="100"/>
             <RowDefinition Height="300"/>
         </Grid.RowDefinitions>
-        <userControl:UCMenu/>
+        <userControl:UCMenu Loaded="UCMenu_Loaded"/>
         <Grid Grid.Row="1">
             <Border>
                 <hc:ScrollViewer IsInertiaEnabled="True" Margin="0,0,0,-570">

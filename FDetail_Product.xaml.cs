@@ -15,23 +15,13 @@ using System.Windows.Shapes;
 namespace TechMarket_Management
 {
     /// <summary>
-    /// Interaction logic for FProduct.xaml
+    /// Interaction logic for FDetail_Product.xaml
     /// </summary>
-    public partial class FProduct : Window
+    public partial class FDetail_Product : Window
     {
-        public FProduct()
+        public FDetail_Product()
         {
             InitializeComponent();
-        }
-
-        private void UCCard_Loaded(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void UCMenu_Loaded(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

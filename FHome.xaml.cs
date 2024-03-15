@@ -13,6 +13,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using TechMarket_Management;
 
 namespace TechMarket_Management
 {
@@ -45,6 +46,13 @@ namespace TechMarket_Management
         {
             FProduct fProduct = new FProduct();
             fProduct.Show();
+        }
+
+        private void BtnDetail_Product_Click(object sender, RoutedEventArgs e)
+        {
+           FDetail_Product fDetail_Product = new FDetail_Product();
+            fDetail_Product.Show();
+
         }
     }
 }
